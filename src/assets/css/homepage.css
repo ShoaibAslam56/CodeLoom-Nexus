@@ -1,0 +1,747 @@
+/* page main banner */
+.page-main-banner.homepage-banner {
+  padding-top: 140px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-main-banner.homepage-banner {
+    padding-top: 160px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .page-main-banner.homepage-banner {
+    padding-top: 180px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .page-main-banner.homepage-banner {
+    padding-top: 203px;
+  }
+}
+
+/* end page main banner */
+
+/* hire banner */
+.hire-official-Shopify-experts-banner-back {
+  max-width: 950px;
+  border-radius: 20px;
+  background-image: url(../images/banner-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto 20px auto;
+  padding: 40px;
+  text-align: center;
+  color: var(--banner-top-content-color);
+  position: relative;
+}
+.hire-official-Shopify-experts-banner-back .title {
+  color: var(--banner-top-content-color);
+  margin-bottom: 15px;
+}
+.hire-official-Shopify-experts-banner-back .button {
+  max-width: fit-content;
+  margin: 28px auto 0 auto;
+}
+.hire-official-Shopify-experts-banner-back .shopify-logo-banner {
+  position: absolute;
+  left: -25px;
+  bottom: -20px;
+}
+.hire-official-Shopify-experts-banner-back .text {
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 991px) {
+  .hire-official-Shopify-experts-banner-back .shopify-logo-banner {
+    max-width: 130px;
+    left: -20px;
+    bottom: -10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hire-official-Shopify-experts-banner-back {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .hire-official-Shopify-experts-banner-back .shopify-logo-banner {
+    max-width: 100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hire-official-Shopify-experts-banner-back .shopify-logo-banner {
+    display: none;
+  }
+  .hire-official-Shopify-experts-banner-back {
+    padding: 25px;
+    margin-bottom: 0;
+  }
+}
+/* hire banner banner */
+
+/* why you choose us */
+.why-you-choose-us-section {
+  background-color: var(--light-gray-background);
+}
+.why-you-choose-us-points {
+  background-color: var(--common-white-color);
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  height: 100%;
+}
+.why-you-choose-us-points .icon-main {
+  margin-bottom: 12px;
+}
+.why-you-choose-us-points .icon-main .icon {
+  max-height: 50px;
+}
+.why-you-choose-us-points .title {
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .why-you-choose-us-points .icon-main .icon {
+    max-height: 55px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .why-you-choose-us-points .icon-main .icon {
+    max-height: 70px;
+  }
+}
+/* end why you choose us */
+
+/* tal to experts */
+
+.talk-to-exp-background {
+  background: linear-gradient(274.23deg, #a51788 -5%, #20084d 76.76%);
+  border-radius: 20px;
+  padding: 25px 25px;
+  position: relative;
+  overflow: hidden;
+}
+.talk-to-exp-background:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 33.5%;
+  height: 40%;
+  background-image: url(../images/talk-exp-back-icon-1.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100%;
+  background-position-y: top;
+}
+.talk-to-exp-background:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 28.5%;
+  height: 26%;
+  background-image: url(../images/talk-exp-back-icon-2.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100%;
+  background-position-y: bottom;
+}
+.talk-to-exp-content {
+  z-index: 1;
+  position: relative;
+  flex-wrap: wrap;
+}
+.talk-to-exp-title {
+  max-width: 100%;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.talk-to-exp-title .title {
+  color: var(--banner-top-content-color);
+  margin-bottom: 0;
+  padding-right: 0px;
+  text-align: center;
+}
+.talk-to-exp-profile {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.talk-to-exp-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--common-white-color);
+  overflow: hidden;
+  border: 5px solid var(--common-white-color);
+  margin: 0 auto 15px auto;
+}
+.talk-to-exp-info {
+  width: 100%;
+  padding-left: 0px;
+  color: var(--banner-top-content-color);
+}
+.talk-to-exp-info .expert-name .title {
+  color: var(--banner-top-content-color);
+  margin-bottom: 0;
+}
+.talk-to-exp-info .expert-name {
+  margin-bottom: 10px;
+}
+
+.talk-to-exp-section .line-background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+.talk-to-exp-info .button {
+  margin-left: auto;
+  margin-right: auto;
+}
+.talk-to-exp-info .button.disabled {
+  pointer-events: none;
+}
+
+@media screen and (min-width: 600px) {
+  .talk-to-exp-profile {
+    width: 80%;
+  }
+  .talk-to-exp-title {
+    max-width: 75%;
+  }
+  .talk-to-exp-background {
+    padding: 33px 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .talk-to-exp-section .line-background {
+    width: 60%;
+  }
+  .talk-to-exp-title {
+    max-width: 300px;
+    margin: 0;
+  }
+  .talk-to-exp-title .title {
+    padding-right: 15px;
+    text-align: left;
+  }
+  .talk-to-exp-image {
+    width: 110px;
+    height: 110px;
+    margin: 0;
+  }
+  .talk-to-exp-info {
+    width: calc(100% - 110px);
+    padding-left: 20px;
+  }
+  .talk-to-exp-profile {
+    width: 64.7%;
+    margin-left: auto;
+    margin-right: 0;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .talk-to-exp-info .button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .talk-to-exp-title {
+    max-width: 344px;
+  }
+  .talk-to-exp-image {
+    width: 140px;
+    height: 140px;
+    border-width: 8px;
+  }
+  .talk-to-exp-info {
+    width: calc(100% - 148px);
+  }
+}
+/* end talk to experts */
+
+/* choose shopify experts */
+
+.video-part {
+  padding: 25px;
+  position: relative;
+}
+.video-part:before {
+  content: "";
+  width: 120px;
+  height: 120px;
+  background-color: var(--primary-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.video-part:after {
+  content: "";
+  width: 120px;
+  height: 120px;
+  background-color: var(--primary-color);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.video-part .video-wrapper {
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.video-part .video-wrapper:before {
+  content: "";
+  display: block;
+  padding-top: 56%;
+}
+.video-image-play-button,
+.video-part .videohtml {
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-image-play-button .playbutton {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translatex(-50%) translatey(-50%);
+  width: 55px;
+}
+
+.choose-shopify-experts-and-video .right-content .title {
+  margin-bottom: 20px;
+}
+.choose-shopify-experts-and-video .right-content .list-point-with-border {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .choose-shopify-experts-and-video .section-head-part {
+    text-align: left;
+  }
+  .choose-shopify-experts-and-video
+    .section-head-part
+    .section-head-title:before {
+    left: 0;
+    transform: translate(0);
+  }
+}
+
+/* end choose shopify experts */
+
+/* eCommerce marketplace section */
+.eCommerce-marketplace-section .section-head-part {
+  text-align: left;
+}
+.eCommerce-marketplace-section .section-head-part .section-head-title:before {
+  left: 0;
+  transform: translate(-0);
+}
+.eCommerce-marketplace-section .custom-list {
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+.eCommerce-marketplace-section .custom-list li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+.eCommerce-marketplace-section .custom-list li span {
+  width: 26%;
+  display: inline-block;
+}
+.eCommerce-marketplace-section .custom-list .equel-icon {
+  padding-left: 20px;
+  background-image: url(../images/equal.svg);
+  background-repeat: no-repeat;
+  background-size: 9px;
+  background-position-x: left;
+  background-position-y: center;
+}
+.eCommerce-marketplace-section .list-point-with-border {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+/* end eCommerce marketplace section */
+
+/* brand image slider */
+.brand-carousel-section .brand-image {
+  padding: 0 30px;
+  max-height: 64px;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+/* end brand image slider */
+
+/* services part */
+.single-services-box {
+  background: var(--common-white-color);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08);
+  border-top: 10px solid var(--primary-color);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+.single-services-box:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f9e9f6;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.single-services-box:hover:before {
+  height: 100%;
+  opacity: 1;
+}
+.services-main-wrap:not(.services-list-small) .single-services-box > * {
+  z-index: 1;
+}
+.single-services-box .icon-main {
+  width: 100px;
+  height: 100px;
+  background-color: var(--light-gray-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 25px auto;
+  transition: all 0.5s;
+}
+.single-services-box .icon-main .icon {
+  max-width: 62px;
+}
+.services-main-wrap:not(.services-list-small)
+  .single-services-box:hover
+  .icon-main {
+  background-color: var(--primary-color);
+}
+.services-main-wrap:not(.services-list-small)
+  .single-services-box:hover
+  .icon-main
+  .normal-image {
+  display: none;
+}
+.services-main-wrap:not(.services-list-small)
+  .single-services-box:hover
+  .icon-main
+  .hover-image {
+  display: block;
+}
+.services-main-wrap:not(.services-list-small)
+  .single-services-box
+  .services-content {
+  margin-bottom: 25px;
+}
+.single-services-box .title {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.single-services-box .link-with-icon {
+  margin: auto auto 0 auto;
+}
+
+.services-list-slider .slick-list {
+  margin: 0 -15px;
+}
+.services-list-slider .services-list-wrap {
+  padding: 0 15px 15px;
+}
+
+/* services box small */
+.services-list-small .services-content > .title {
+  margin-bottom: 0;
+  min-height: 70px;
+}
+.services-list-small .single-services-box .link-with-icon {
+  position: relative;
+  margin-top: 15px;
+}
+.services-list-small .service-content-hover {
+  transition: all 0.5s;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  padding: 0 25px;
+  text-align: left;
+}
+.services-list-small .single-services-box:hover .service-content-hover {
+  transition-delay: 0.3s;
+  opacity: 1;
+  pointer-events: unset;
+}
+.services-list-small .single-services-box .text {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/* end services box small */
+
+@media screen and (min-width: 768px) {
+  .single-services-box .icon-main {
+    width: 120px;
+    height: 120px;
+  }
+  .single-services-box .icon-main .icon {
+    max-width: 65px;
+  }
+
+  /* services box small */
+  .services-list-small .services-content > .title {
+    min-height: 84px;
+  }
+  /* end services box small */
+}
+
+@media screen and (min-width: 992px) {
+  /* services box small */
+  .services-list-small .services-content > .title {
+    min-height: 102px;
+  }
+  /* end services box small */
+}
+
+@media screen and (min-width: 1200px) {
+  .single-services-box .icon-main {
+    width: 140px;
+    height: 140px;
+  }
+  .single-services-box .icon-main .icon {
+    max-width: 70px;
+  }
+
+  /* services box small */
+  .services-list-small .single-services-box .text {
+    -webkit-line-clamp: 6;
+  }
+  /* end services box small */
+}
+@media screen and (min-width: 1400px) {
+  .single-services-box .icon-main {
+    width: 165px;
+    height: 165px;
+  }
+  .single-services-box .icon-main .icon {
+    max-width: 83px;
+  }
+}
+/* end services part*/
+
+/* workflow */
+
+.workflow-single-back {
+  background: var(--common-white-color);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  position: relative;
+  height: 100%;
+}
+.workflow-single-back:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/workflow-back-line.png);
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.workflow-single-back:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: var(--primary-color);
+  transition: all 0.5s;
+  left: 0;
+}
+.workflow-single-back:hover:after {
+  height: 100%;
+}
+.workflow-single-back > * {
+  position: relative;
+  z-index: 1;
+}
+.workflow-step-wrap .image {
+  width: 100px;
+  height: 100px;
+  background-color: #8a6ebc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+.workflow-single-back:hover .image {
+  border-radius: 50%;
+  background-color: rgba(233, 79, 202, 0.5);
+}
+.workflow-step-wrap .image .icon {
+  max-width: 60px;
+}
+.workflow-count {
+  font-family: var(--font-playball-regular);
+  font-size: 50px;
+  color: #ececec;
+  position: absolute;
+  top: 20px;
+  right: 35px;
+}
+.workflow-step-wrap .title {
+  margin-bottom: 15px;
+  transition: all 0.5s;
+}
+.workflow-step-wrap .workflow-content li {
+  margin-bottom: 10px;
+}
+.workflow-step-wrap .workflow-content li:last-child {
+  margin-bottom: 0px;
+}
+.workflow-content {
+  margin-bottom: 0;
+  transition: all 0.5s;
+}
+.workflow-single-back:hover .title {
+  color: var(--banner-top-content-color);
+}
+.workflow-single-back:hover .workflow-content {
+  color: var(--banner-top-content-color);
+}
+
+/* workflow small */
+
+.workflow-small .workflow-step-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.workflow-small .workflow-single {
+  padding: 0 12px;
+  width: 100%;
+}
+.workflow-small .workflow-single-back {
+  padding: 20px;
+}
+.workflow-small .workflow-step-wrap .image {
+  width: 80px;
+  height: 80px;
+}
+.workflow-small .workflow-step-wrap .image .icon {
+  max-width: 51px;
+}
+.workflow-small .workflow-count {
+  font-size: 50px;
+  right: 20px;
+  top: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  .workflow-small .workflow-single {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .workflow-small .workflow-single {
+    width: 33%;
+  }
+  .workflow-single-back {
+    padding: 25px;
+  }
+  .workflow-step-wrap .image .icon {
+    max-width: 55px;
+  }
+  .workflow-count {
+    right: 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .workflow-step-wrap .image {
+    width: 110px;
+    height: 110px;
+  }
+  .workflow-step-wrap .image .icon {
+    max-width: 68px;
+  }
+  .workflow-count {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .workflow-single-back {
+    padding: 35px;
+  }
+  .workflow-step-wrap .image {
+    width: 134px;
+    height: 134px;
+  }
+  .workflow-step-wrap .image .icon {
+    max-width: 85px;
+  }
+  .workflow-count {
+    font-size: 70px;
+  }
+  .workflow-small .workflow-single {
+    width: 20%;
+  }
+}
+/* end workflow */
+
+/* case study */
+
+.case-study {
+  background-image: url(../images/case-study-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.case-study-content .title {
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+.case-study-content .Requirements {
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+.case-study-content .button {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* end case study */

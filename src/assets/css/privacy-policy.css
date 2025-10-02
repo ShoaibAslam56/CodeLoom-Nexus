@@ -1,0 +1,44 @@
+.privacy-policy-main {
+  background-image: none;
+  background-color: transparent;
+  padding-bottom: 0;
+}
+.privacy-policy-main .breadcrumb-container {
+  background-color: var(--homepage-announcement-color);
+  padding: 15px 0;
+}
+
+.privacy-policy-image-with-text .image-with-text-image-part img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.correct-icon-with-list-small {
+  padding-left: 30px;
+}
+.correct-icon-with-list-small li {
+  border-bottom: 1px solid var(--gray-border-color);
+  padding-bottom: 10px;
+  list-style: none;
+  position: relative;
+}
+.correct-icon-with-list-small li:before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 0px;
+  background-image: url(../images/list-correct.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  background-position: center;
+}
+
+.privacy-policy-bottom-intro {
+  background-color: var(--homepage-announcement-color);
+  padding: 40px 0;
+}
+.privacy-policy-bottom-intro p {
+  color: var(--common-white-color);
+}

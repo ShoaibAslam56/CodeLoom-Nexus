@@ -1,0 +1,216 @@
+.case-study-background {
+  background-color: #f7f7f7;
+  padding: 30px 0px 30px 0;
+  margin-bottom: 30px;
+}
+.case-study-image img {
+  display: block;
+  margin: 0 auto;
+}
+.case-study-content-info {
+  padding: 25px 25px 0 25px;
+}
+.case-study-name {
+  position: relative;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+.case-study-name:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 24px;
+  background-color: var(--Secoundry-color);
+  border-radius: 9px;
+}
+.case-study-name .title {
+  margin-bottom: 0;
+}
+.case-study-year {
+  padding-left: 10px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.case-study-year:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 5px;
+  height: 5px;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+.case-study-year span:last-child {
+  margin-left: 5px;
+}
+.case-study-content-info .button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.case-study-tabs {
+  margin: 0;
+  padding: 0;
+}
+.case-study-tabs .clickme {
+  margin-bottom: 15px;
+  list-style: none;
+}
+.case-study-tabs .tab-name {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 17px 20px 17px 45px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 0;
+  position: relative;
+  transition: all 0.5s;
+}
+.case-study-tabs .tab-name:before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 14px;
+  width: 5px;
+  height: 35px;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.case-study-tabs .activelink,
+.case-study-tabs .tab-name:hover {
+  color: var(--banner-top-content-color);
+  background-color: var(--primary-color);
+}
+.case-study-tabs .activelink:before,
+.case-study-tabs .tab-name:hover:before {
+  background-color: var(--Secoundry-color);
+}
+.sidebar-stickey {
+  position: sticky;
+  top: 180px;
+}
+
+.case-study-list-main {
+  padding-bottom: 40px;
+}
+.vertical-contact-exp-banner-inner {
+  border-radius: 20px;
+  background: linear-gradient(156deg, #20084d 0%, #89147c 100%);
+  padding: 25px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.vertical-contact-exp-line-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.vertical-contact-exp-profile {
+  position: relative;
+  z-index: 1;
+}
+.vertical-contact-exp-title {
+  color: var(--banner-top-content-color);
+  position: relative;
+  z-index: 1;
+}
+.vertical-contact-exp-title span {
+  color: var(--Secoundry-color);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
+}
+.vertical-contact-exp-profile .image {
+  width: 95px;
+  height: 95px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 5px solid var(--banner-top-content-color);
+  margin: 0 auto 10px auto;
+}
+.vertical-contact-exp-profile .name {
+  color: var(--banner-top-content-color);
+  margin-bottom: 5px;
+}
+.vertical-contact-exp-profile .designation {
+  color: var(--banner-top-content-color);
+  margin-bottom: 10px;
+  display: block;
+}
+.vertical-contact-exp-profile .name span {
+  color: var(--Secoundry-color);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
+}
+.vertical-contact-exp-profile .content {
+  color: var(--banner-top-content-color);
+}
+.vertical-contact-exp-profile .button {
+  margin: 15px auto 0 auto;
+}
+.vertical-contact-exp-banner-inner:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/vertical-banner-back-1.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100%;
+  background-position-y: top;
+  max-width: 327px;
+  max-height: 100px;
+}
+.vertical-contact-exp-banner-inner:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/vertical-banner-back-2.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100%;
+  background-position-y: top;
+  max-width: 245px;
+  max-height: 276px;
+}
+.vertical-contact-exp-banner {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .vertical-contact-exp-banner {
+    margin-top: 30px;
+    display: block;
+  }
+  .case-study-name:before {
+    height: 29px;
+  }
+  .case-study-year {
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .vertical-contact-exp-profile .content {
+    max-width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .case-study-content-info {
+    padding-right: 30px;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .case-study-name:before {
+    height: 35px;
+  }
+}

@@ -1,0 +1,146 @@
+.contact-page #contact_form {
+  display: none;
+}
+.contact-page-form-back {
+  background-color: #fbfbfb;
+  padding: 25px;
+}
+.contact-form-heading {
+  margin-bottom: 30px;
+}
+.contact-form-heading .title {
+  margin-bottom: 10px;
+}
+.contact-page-form textarea.form-field {
+  min-height: 180px;
+}
+.contact-page-form .form-button .form-group {
+  margin-bottom: 0;
+}
+.contact-page-form .form-button .submit-button {
+  min-width: 180px;
+}
+.contact-inner-info .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.contact-inner-info .title .icon {
+  max-width: 40px;
+  margin-right: 15px;
+}
+.contact-info-link {
+  padding-left: 55px;
+  flex-wrap: wrap;
+}
+.contact-info-link a {
+  display: flex;
+  max-width: fit-content;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: var(--text-color);
+  margin-right: 15px;
+}
+.contact-info-link a img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+.contact-inner-info {
+  margin-bottom: 30px;
+}
+.contact-inner-info:last-child {
+  margin-bottom: 0;
+}
+.country-name {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+}
+.country-name .flag {
+  width: 16px;
+  margin-right: 5px;
+}
+.country-address {
+  margin-bottom: 20px;
+}
+.country-address:last-child {
+  margin-bottom: 0;
+}
+.contact-page-main .page-main-banner-content {
+  margin-bottom: 0;
+  text-align: center;
+}
+.contact-page-main-banner {
+  background-image: linear-gradient(135deg, #3b1082, #9c34c5);
+  background-color: transparent;
+  background-image: url(../images/contact-page-main-banner-back.png);
+  padding-bottom: 50px;
+  background-color: var(--primary-color);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  background-image: url(../images/contact-page-main-banner-back.png);
+  padding-bottom: 50px;
+}
+.contact-info-main {
+  order: 1;
+}
+
+.contact-page .page-main-banner-content-list .content .text {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.contact-map-main {
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+}
+.contact-map-main iframe {
+  width: 100%;
+  min-height: 400px;
+}
+
+.contact-page-form .select-location .iti__country-list {
+  max-width: 282px;
+}
+
+@media screen and (min-width: 576px) {
+  .contact-page-form-back {
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-main-banner {
+    padding-bottom: 60px;
+  }
+  .contact-info-main {
+    order: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact-inner-info .title .icon {
+    max-width: 50px;
+  }
+  .contact-info-link {
+    padding-left: 65px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .country-address .address {
+    width: 85%;
+  }
+}

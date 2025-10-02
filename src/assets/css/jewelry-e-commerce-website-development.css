@@ -1,0 +1,634 @@
+/*  */
+.eCommerce-marketplace-section .section-head-part {
+  text-align: left;
+}
+.eCommerce-marketplace-section .section-head-part .section-head-title:before {
+  left: 0;
+  transform: translate(-0);
+}
+.eCommerce-marketplace-section .view-all-blog .button {
+  margin: 0;
+}
+/*  */
+/* workflow */
+.workflow-single-back {
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  position: relative;
+  height: 100%;
+}
+.workflow-single-back:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/workflow-back-line.png);
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.workflow-single-back:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: var(--primary-color);
+  transition: all 0.5s;
+  left: 0;
+}
+.workflow-single-back:hover:after {
+  height: 100%;
+}
+.workflow-single-back > * {
+  position: relative;
+  z-index: 1;
+}
+.workflow-step-wrap .image {
+  width: 100px;
+  height: 100px;
+  background-color: #8a6ebc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+.workflow-single-back:hover .image {
+  border-radius: 50%;
+  background-color: rgba(233, 79, 202, 0.5);
+}
+.workflow-step-wrap .image .icon {
+  max-width: 60px;
+}
+.workflow-count {
+  font-family: var(--font-playball-regular);
+  font-size: 50px;
+  color: #ececec;
+  position: absolute;
+  top: 20px;
+  right: 35px;
+}
+.workflow-step-wrap .title {
+  margin-bottom: 15px;
+  transition: all 0.5s;
+}
+.workflow-step-wrap .workflow-content li {
+  margin-bottom: 10px;
+}
+.workflow-step-wrap .workflow-content li:last-child {
+  margin-bottom: 0px;
+}
+.workflow-content {
+  margin-bottom: 0;
+  transition: all 0.5s;
+}
+.workflow-single-back:hover .title {
+  color: #fff;
+}
+.workflow-single-back:hover .workflow-content {
+  color: #fff;
+}
+
+/* workflow small */
+
+.workflow-small .workflow-step-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.workflow-small .workflow-single {
+  padding: 0 12px;
+  width: 100%;
+}
+.workflow-small .workflow-single-back {
+  padding: 20px;
+}
+.workflow-small .workflow-step-wrap .image {
+  width: 80px;
+  height: 80px;
+}
+.workflow-small .workflow-step-wrap .image .icon {
+  max-width: 51px;
+}
+.workflow-small .workflow-count {
+  font-size: 50px;
+  right: 20px;
+  top: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  .workflow-small .workflow-single {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .workflow-small .workflow-single {
+    width: 33%;
+  }
+  .workflow-single-back {
+    padding: 25px;
+  }
+  .workflow-step-wrap .image .icon {
+    max-width: 55px;
+  }
+  .workflow-count {
+    right: 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .workflow-step-wrap .image {
+    width: 110px;
+    height: 110px;
+  }
+  .workflow-step-wrap .image .icon {
+    max-width: 68px;
+  }
+  .workflow-count {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .workflow-single-back {
+    padding: 35px;
+  }
+  .workflow-step-wrap .image {
+    width: 134px;
+    height: 134px;
+  }
+  .workflow-step-wrap .image .icon {
+    max-width: 85px;
+  }
+  .workflow-count {
+    font-size: 70px;
+  }
+  .workflow-small .workflow-single {
+    width: 20%;
+  }
+}
+
+/* end workflow */
+
+/* horizontal image with text */
+.horizontal-image-with-text-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.horizontal-image-with-text-inner .image {
+  flex: 0 0 29.6%;
+}
+.horizontal-image-with-text-inner .content {
+  flex: 1;
+  padding-left: 20px;
+}
+.horizontal-image-with-text-inner .content .title {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 991px) {
+  .horizontal-image-with-text-inner .content {
+    padding-left: 30px;
+  }
+}
+/* end horizontal image with text */
+
+/* payment gateway css start */
+.accelerate-your-business-main .accelerate-your-business-slider .slick-track {
+  display: flex;
+}
+.accelerate-your-business-main .accelerate-your-business-slider .slick-slide {
+  height: auto;
+}
+.accelerate-your-business-main
+  .accelerate-your-business-slider
+  .industries-we-work-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.accelerate-your-business-main
+  .accelerate-your-business-slider
+  .industries-name {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 30px);
+}
+
+.accelerate-your-business-main .business-growth-number-main {
+  margin-top: 30px;
+}
+.accelerate-your-business-main
+  .business-growth-number-main
+  .business-growth-number {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--light-gray-background);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.accelerate-your-business-main
+  .business-growth-number-main
+  .business-growth-number
+  .number {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.accelerate-your-business-main
+  .business-growth-number-main
+  .business-growth-number
+  .button-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.accelerate-your-business-main
+  .business-growth-number-main
+  .business-growth-number
+  .text {
+  text-align: center;
+}
+.accelerate-your-business-main
+  .business-growth-number-main
+  .business-growth-number
+  .button {
+  max-width: 180px;
+  margin: 0 auto;
+  width: 100%;
+}
+.accelerate-your-business-main .view-our-portfolio-btn {
+  max-width: 300px;
+  margin: 30px auto 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .accelerate-your-business-main
+    .business-growth-number-main
+    .col-spacing-bottom {
+    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+/* payment gateway css end */
+
+/* only point part */
+.icon-with-points .icon-with-point-single {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px 12px 18px;
+  border-radius: 15px;
+  border: 1px solid rgba(51, 12, 121, 0.2);
+  background: #fff;
+  box-shadow: 4px 4px 20px 0px rgba(51, 12, 121, 0.1);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.icon-with-points .icon-with-point-single:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 87px;
+  height: 100%;
+  background-image: url(../images/icon-with-points-shap.svg);
+  background-position-x: right;
+  background-position-y: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icon-with-points .icon-part {
+  max-width: 60px;
+  position: relative;
+}
+.icon-with-points .icon-part:before {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: #c9cce9;
+  transform: rotate(-10deg);
+}
+.icon-with-points .icon-part-inner {
+  width: 50px;
+  height: 50px;
+  background-color: var(--common-white-color);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.icon-with-points .point-content {
+  width: calc(100% - 80px);
+  margin-left: 20px;
+}
+.icon-with-points .point-content .point {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
+}
+.icon-with-points .icon-part-inner .correct-icon {
+  width: 25px;
+  height: 255px;
+}
+
+.icon-with-points .icon-with-point-single:hover {
+  background: linear-gradient(
+    265deg,
+    var(--primary-color) 11.99%,
+    var(--Secoundry-color) 114.11%
+  );
+}
+.icon-with-points .icon-with-point-single:hover .point {
+  color: var(--banner-top-content-color);
+}
+.icon-with-points .icon-with-point-single:hover:before {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .icon-with-points .icon-part:before {
+    width: 60px;
+    height: 60px;
+  }
+  .icon-with-points .icon-part-inner {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* only point part end */
+/* client success stories start */
+.client-success-stories-main .slick-list {
+  padding: 10px 0 20px;
+  width: calc(100% + 20px);
+  margin-left: -10px;
+}
+.client-success-stories-main .client-success-stories-item {
+  background-color: var(--common-white-color);
+  text-align: left;
+  padding: 0px;
+  box-shadow: 0px 4px 4px rgba(51, 12, 121, 0.5);
+  height: 100%;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  margin: 0 10px;
+}
+.client-success-stories-main .client-success-stories-item:hover {
+  box-shadow: 0px 4px 12px rgb(51 12 121 / 60%);
+}
+.client-success-stories-main .client-success-stories-item .icon-main {
+  margin-bottom: 15px;
+  text-align: center;
+  background-image: radial-gradient(#e94fca 1.5px, transparent 1.5px),
+    radial-gradient(#350f7a 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+  background-position:
+    0 0,
+    11px 11px;
+  padding: 15px 0;
+  max-height: 130px;
+}
+.client-success-stories-main .client-success-stories-item .icon-main .icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.client-success-stories-main .client-success-stories-item .title {
+  margin-bottom: 5px;
+  color: var(--text-color);
+  padding: 0 20px;
+}
+.client-success-stories-main .client-success-stories-item .title span {
+  color: var(--Secoundry-color);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
+}
+.client-success-stories-main .client-success-stories-item .text {
+  padding: 0 20px 20px;
+}
+.client-success-stories-main .slick-dots {
+  padding: 10px 0 0;
+}
+.client-success-stories-main .slick-track {
+  display: flex;
+}
+.client-success-stories-main .slick-track .client-success-stories-item {
+  height: auto;
+}
+
+@media screen and (min-width: 1400px) {
+  .client-success-stories-main .client-success-stories-item .icon-main .icon {
+    object-fit: cover;
+    max-height: unset;
+    box-shadow: 0px 2px 6px rgb(51 12 121 / 60%);
+  }
+}
+/* client success stories end */
+
+/* faq-number-section start */
+.faq-section .number-item-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.faq-section .number-item-main .number-item {
+  padding: 15px;
+  background-color: #ededed;
+}
+.faq-section .number-item-main .number-item .number {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  .faq-section .number-item-main {
+    margin-bottom: 30px;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .faq-section .number-item-main {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+}
+/* faq-number-section end */
+
+/* workflow-section */
+.workflow-section {
+  background: var(--light-gray-background);
+}
+/* workflow-section */
+
+.horizontal-image-with-text-two-grid {
+  background: var(--light-gray-background);
+}
+
+/* store Development Process css start */
+.store-development-process-main {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.store-development-process-main .store-development-item {
+  display: flex;
+}
+.store-development-process-main .store-development-item.right {
+  justify-content: flex-end;
+}
+.store-development-process-main .store-development-item .number-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  min-width: 150px;
+  height: auto;
+  position: relative;
+}
+.store-development-process-main .store-development-item .number-main::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid var(--primary-color);
+  z-index: 1;
+}
+.store-development-process-main
+  .store-development-item
+  .number-main.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.store-development-process-main
+  .store-development-item
+  .number-main.half::after {
+  height: 50%;
+  left: calc(50% - 3px);
+  top: 50%;
+}
+.store-development-process-main
+  .store-development-item
+  .number-main.half.top::after {
+  height: 50%;
+  left: calc(50% - 3px);
+  top: 0;
+}
+.store-development-process-main .store-development-item .number-main .number {
+  padding: 13px 20px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+.store-development-process-main .store-development-item .text-main {
+  padding: 15px;
+  max-width: 700px;
+  width: 100%;
+}
+.store-development-process-main .store-development-item .text-main .heading {
+  margin-bottom: 5px;
+}
+.store-development-process-main .timeline {
+  display: flex;
+}
+.store-development-process-main .timeline .timeline-box {
+  width: 150px;
+  min-width: 150px;
+  overflow: hidden;
+  height: 40px;
+  position: relative;
+}
+.store-development-process-main .timeline .timeline-box .corner {
+  border: 3px solid var(--primary-color);
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+  height: 40px;
+}
+.store-development-process-main .timeline .timeline-box .top-right {
+  left: calc(50% - 3px);
+  top: -50%;
+}
+.store-development-process-main .timeline .timeline-box .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.store-development-process-main .timeline .timeline-box .right-bottom {
+  left: calc(50% - 3px);
+  top: calc(50% - 3px);
+}
+.store-development-process-main .timeline .timeline-box .top-left {
+  left: -50%;
+  top: -50%;
+}
+.store-development-process-main .timeline .timeline-box-line {
+  width: 100%;
+}
+.store-development-process-main .timeline .timeline-box-line hr {
+  border-top: 3px solid var(--primary-color);
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .store-development-process-main .store-development-item .number-main {
+    width: 120px;
+    min-width: 120px;
+  }
+  .store-development-process-main .timeline .timeline-box {
+    width: 120px;
+    min-width: 120px;
+  }
+}
+@media (max-width: 749px) {
+  .store-development-process-main .store-development-item .text-main {
+    padding: 15px;
+  }
+  .store-development-process-main .store-development-item .number-main {
+    width: 80px;
+    min-width: 80px;
+  }
+  .store-development-process-main .timeline .timeline-box {
+    width: 80px;
+    min-width: 80px;
+  }
+}
+
+/* store Development Process css end */
+
+/* why choose us css start */
+.icon-with-points .icon-with-point-single:before {
+  display: none;
+}
+.icon-with-points .icon-part-inner {
+  box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.1);
+}
+.icon-with-points .icon-part-inner img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+/* why choose us css end */

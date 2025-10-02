@@ -1,0 +1,119 @@
+.correct-icon-with-border-list {
+  padding-left: 40px;
+  margin-bottom: 0;
+}
+.correct-icon-with-border-list li {
+  list-style: none;
+  margin-bottom: 20px;
+  position: relative;
+  border-bottom: 1px solid var(--gray-border-color);
+  padding-bottom: 15px;
+}
+.correct-icon-with-border-list li:before {
+  content: "";
+  position: absolute;
+  left: -40px;
+  top: 3px;
+  background-image: url(../images/list-correct.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  background-size: 25px;
+}
+.correct-icon-with-border-list .title {
+  margin-bottom: 10px;
+}
+.image-with-full-size-content-inner {
+  margin-top: 40px;
+}
+.image-with-full-size-content-part .image-part {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .correct-icon-with-border-list li:before {
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .image-with-full-size-content-part .section-head-part {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .image-with-full-size-content-part
+    .section-head-part
+    .section-head-title:before {
+    left: 0;
+    transform: translate(0);
+  }
+  .image-with-full-size-content-part {
+    position: relative;
+    padding-top: 30px;
+  }
+  .image-with-full-size-content-part:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 37%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-image: url(../images/image-with-full-size-text-back.svg);
+  }
+  .image-with-full-size-content-part > * {
+    z-index: 1;
+    position: relative;
+  }
+}
+
+.correct-icon-with-list-small {
+  padding-left: 30px;
+}
+.correct-icon-with-list-small li {
+  border-bottom: 1px solid var(--gray-border-color);
+  padding-bottom: 10px;
+  list-style: none;
+  position: relative;
+  margin-bottom: 10px;
+}
+.correct-icon-with-list-small li:before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 0px;
+  background-image: url(../images/list-correct.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  background-position: center;
+}
+
+/* case study */
+
+.case-study {
+  background-image: url(../images/case-study-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+}
+.case-study-content .title {
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+.case-study-content .Requirements {
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+.case-study-content .button {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* end case study */
