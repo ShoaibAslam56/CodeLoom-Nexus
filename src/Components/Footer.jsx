@@ -150,64 +150,6 @@ const Footer = () => {
                 {/* <li><a href="tel:+92330 043 3565"><span className="contact-icon"><img src="/../assets/images/call-white.png" alt="call" width="17px" height="17px" loading="lazy" /></span>+92330 043 3565</a></li> */}
               </ul>
             </div>
-            <div className="col-lg-3 col-md-6 footer-address-part footer-colm col-spacing-bottom">
-              <h3 className="h6 title">
-                <span className="flag-icon">
-                  <img
-                    src={ukFlag}
-                    alt="indian flag"
-                    width="20px"
-                    height="20px"
-                    loading="lazy"
-                  />
-                </span>
-                United Kingdom
-              </h3>
-              {/* <p className="address">85 Great Portland Street
-London
-W1W 7LT</p> */}
-              <p className="address">
-                128 City Road
-                London
-                EC1V 2NX
-                United Kingdom
-
-              </p>
-              <ul className="contact-info">
-                <li>
-                  <a
-                    href="hello@convert-via.com"
-                    title="hello@convert-via.com"
-                  >
-                    <span className="contact-icon">
-                      <img
-                        src={emailIcon}
-                        alt="email"
-                        width="16px"
-                        height="14px"
-                        loading="lazy"
-                      />
-                    </span>
-                    hello@convert-via.com
-                  </a>
-                </li>
-                <li>
-                  <a href="tel:03305200974">
-                    <span className="contact-icon">
-                      <img
-                        src={callIcon}
-                        alt="call"
-                        width="17px"
-                        height="17px"
-                        loading="lazy"
-                      />
-                    </span>
-                    0330 520 0974
-                  </a>
-                </li>
-                {/* <li><a href="https://wa.me/447426341853" target='_blank'><span className="contact-icon"><img src="/../assets/images/call-white.png" alt="call" width="17px" height="17px" loading="lazy" /></span>+447426341853</a></li> */}
-              </ul>
-            </div>
           </div>
         </div>
 

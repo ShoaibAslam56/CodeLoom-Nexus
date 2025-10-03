@@ -204,22 +204,6 @@ const Contact = () => {
                           Muslim Town, Lahore
                         </p>
                       </div>
-                      <div className="country-address">
-                        <div className="h18 country-name">
-                          <img
-                            loading="lazy"
-                            className="flag"
-                            src={unitedKingdom}
-                            width="16px"
-                            height="16px"
-                            alt="Canada flag"
-                          />
-                          London
-                        </div>
-                        <p className="address">
-                          Rear Of 151 Forest Road London, England, E17 6HE
-                        </p>
-                      </div>
                     </div>
                   </div>
                 </div>
